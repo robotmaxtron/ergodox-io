@@ -1,0 +1,21 @@
+baseURL = 'https://www.ergodox.io/'
+defaultContentLanguage = 'en'
+languageCode = 'en-us'
+title = 'ErgoDox Mechanical Keyboard'
+
+[params]
+  description = "Documentation and build guide for the ErgoDox mechanical keyboard"
+
+[taxonomies]
+  # disable default taxonomies
+  tag = ""
+  category = ""
+
+# The site is a single-page application, so we disable page and section output
+# to avoid unnecessary file generation and Hugo build warnings.
+[outputs]
+  home = ["HTML"]
+  page = []
+  section = []
+  taxonomy = []
+  term = []

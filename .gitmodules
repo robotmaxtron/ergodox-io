@@ -1,0 +1,12 @@
+[submodule "archive/source-material/ErgoDox"]
+	path = archive/source-material/ErgoDox
+	url = https://github.com/robotmaxtron/ErgoDox
+[submodule "archive/source-material/ergodox-case"]
+	path = archive/source-material/ergodox-case
+	url = https://github.com/robotmaxtron/ergodox-case
+[submodule "archive/source-material/ergodox-io"]
+	path = archive/source-material/ergodox-io
+	url = https://github.com/robotmaxtron/ergodox-io
+[submodule "archive/source-material/ergodox-tent"]
+	path = archive/source-material/ergodox-tent
+	url = https://github.com/robotmaxtron/ergodox-tent

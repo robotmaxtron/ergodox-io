@@ -1,0 +1,109 @@
+.toggle{
+    &:hover{
+        cursor: pointer;
+        opacity: .8;
+    }
+    
+    @media screen and (min-width: $sidebar-collapse + 1){
+        display: none;
+    }
+}
+
+// Overview
+.overview {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    overflow-y: auto;
+    transition: var(--transition-speed) all;
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--border-color);
+    
+    @media screen and (max-width: $sidebar-collapse){
+        left: -320px;
+        transition: .3s all ease;
+        transform: translate(0, 0);
+        z-index: 100;
+        
+        &.open{
+            transform: translate(320px, 0);
+        }
+    }
+    
+    .toggle{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        z-index: 100;
+    }
+    ul {
+        list-style: none;
+        counter-reset: nested-counter;
+        padding-left: 0;
+        li {
+            counter-increment: nested-counter;
+            font-size: 98%;
+        }
+    }
+    #nav {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 0;
+        > li {
+            a {
+                display: block;
+                padding: 12px 24px;
+                line-height: 1.2;
+                border-bottom: 1px solid var(--border-color);
+                color: var(--text-color);
+                &:hover {
+                    background: var(--primary-light);
+                    color: var(--primary);
+                }
+            }
+            li {
+                a {
+                    padding: 8px 30px;
+                }
+                li {
+                    a {
+                        padding: 6px 40px;
+                    }
+                    li {
+                        a {
+                            padding: 4px 50px;
+                        }
+                    }
+                }
+            }
+        }
+        .current {
+            > a {
+                background: var(--primary-light);
+                color: var(--primary);
+                font-weight: $bold;
+                border-right: 4px solid var(--primary);
+            }
+        }
+        .parent-active {
+            > a {
+                color: var(--primary);
+                font-weight: $bold;
+            }
+        }
+    }
+}
+
+.current {
+    > a {
+        font-weight: $bold;
+    }
+}
+
+#ezbanner{
+   display: block;
+   width: 180px;
+   margin-right: auto;
+   margin-left: auto;
+}

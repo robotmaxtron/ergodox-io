@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    {{ $sass := resources.Get "sass/main.scss" }}
+    {{ with $sass }}
+        {{ $style := . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ end }}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Overpass+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="overview">
+        <div class="sidebar-header">
+            <a href="/" class="logo-link">
+                <img src="/img/ergodox_logo.png" alt="ErgoDox Logo" class="logo">
+            </a>
+            <span class="toggle">close</span>
+            <header>
+                <span>{{ .Site.Title }}</span>
+            </header>
+            <div class="header-controls">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <svg class="sun" viewBox="0 0 24 24" width="24" height="24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon" viewBox="0 0 24 24" width="24" height="24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        {{/* Build navigation from entries, sorted by number */}}
+        {{ $entries := where .Site.RegularPages "Section" "entries" }}
+        {{ $level1 := where $entries ".Params.sectionclass" "h1" }}
+        {{ $level1 = sort $level1 ".Params.number" }}
+        <ul id="nav">
+            {{ range $level1 }}
+            {{ $level2 := where $entries ".Params.parent_id" .Params.sectionid }}
+            {{ $level2 = sort $level2 ".Params.number" }}
+            <li class="{{ if $level2 }}parent{{ end }}">
+                <a href="#{{ .Params.sectionid }}">{{ .Title }}</a>
+                {{ if $level2 }}
+                <ul>
+                    {{ range $level2 }}
+                    {{ $level3 := where $entries ".Params.parent_id" .Params.sectionid }}
+                    {{ $level3 = sort $level3 ".Params.number" }}
+                    <li class="{{ if $level3 }}parent{{ end }}">
+                        <a href="#{{ .Params.sectionid }}">{{ .Title }}</a>
+                        {{ if $level3 }}
+                        <ul>
+                            {{ range $level3 }}
+                            <li><a href="#{{ .Params.sectionid }}">{{ .Title }}</a></li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+
+    <div class="content">
+        <div id="progress-bar"></div>
+        <span class="toggle">open</span>
+        {{/* Render all entries in order as a single scrolling page */}}
+        {{ $allEntries := sort $entries ".Params.number" }}
+        {{ range $allEntries }}
+        <section id="{{ .Params.sectionid }}" class="{{ .Params.sectionclass }}">
+            <h{{ if eq .Params.sectionclass "h1" }}1{{ else if eq .Params.sectionclass "h2" }}2{{ else }}4{{ end }}>
+            {{ .Title }}
+            </h{{ if eq .Params.sectionclass "h1" }}1{{ else if eq .Params.sectionclass "h2" }}2{{ else }}4{{ end }}>
+            {{ .Content }}
+        </section>
+        {{ end }}
+    </div>
+
+</div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
