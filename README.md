@@ -18,12 +18,13 @@ manually.
 -   **Streamlined Sourcing**: Integrated parts list with some vendor part numbers and product links for simplified 
 ordering.
 -   **Simplified Content**: Logical Markdown structure for easier maintenance and navigation.
+-  **Improved Accessibility**: Comprehensive accessibility features and improved keyboard navigation.
 
 ---
 
 ## Branch and Directory Structure
 
--   **`master` branch**: The primary branch for development.
+-   **`main` branch**: The primary branch for development.
     -   `/hugo-site`: Current source code for the website (built with [Hugo](https://gohugo.io)).
     -   `/deploy`: Rendered static files. These files are synced to the `gh-pages` branch for hosting.
     -   `/archive`: Legacy material, including original ErgoDox PCB files and cases (maintained as Git submodules 
