@@ -10,3 +10,9 @@
 [submodule "archive/source-material/ergodox-tent"]
 	path = archive/source-material/ergodox-tent
 	url = https://github.com/robotmaxtron/ergodox-tent
+[submodule "archive/source-material/infinity/case"]
+	path = archive/source-material/infinity/case
+	url = https://github.com/robotmaxtron/inputclub-case
+[submodule "archive/source-material/infinity/pcb"]
+	path = archive/source-material/infinity/pcb
+	url = https://github.com/robotmaxtron/inputclubpcbs

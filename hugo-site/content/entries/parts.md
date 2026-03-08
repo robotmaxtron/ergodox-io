@@ -13,14 +13,21 @@ suppliers such as Mouser, Digikey, or through community group buys.
 PCBs can be ordered with files from the [ErgoDox GitHub repo](https://github.com/robotmaxtron/ErgoDox) using the 
 provided Gerber files. Common PCB manufacturers include OSHPark, Seeed Studio, and JLCPCB.
 
+### Vendors
+- [JLCPCB](https://jlcpcb.com/)
+- [OSHPark](https://oshpark.com/)
+- [Seeed Studio](https://www.seeedstudio.com/)
+- [Profet Keyboards](https://shop.profetkeyboards.com/product/ergodox-pcbs)
+
 ## Electronics
 
 The following electronic components are needed for a full build. To make sourcing easier, we've provided links to 
-some vendors such as DigiKey for each part:
+some vendors such as DigiKey and Adafruit for each part:
 
 | Component                              |  Qty  | Part Number                                                                                                               |
 |:---------------------------------------|:-----:|:--------------------------------------------------------------------------------------------------------------------------|
 | **Adafruit ItsyBitsy 32u4 - 5V 16MHz** |   1   | [3677](https://www.adafruit.com/product/3677)                                                                             |
+| **IC Socket**                          |   1   | [4173](https://www.adafruit.com/product/4173)                                                                             |
 | **MCP23018 I/O Expander (DIP-28)**     |   1   | [MCP23018-E/SP-ND](https://www.digikey.com/en/products/detail/microchip-technology/MCP23018-E-SP/2126296)                 |
 | **Cherry MX Compatible Switches**      | 76-80 | Various                                                                                                                   |                                                                                        |
 | **1N4148 Diodes (Through-hole)**       | 76-80 | [1N4148FS-ND](https://www.digikey.com/en/products/detail/onsemi/1N4148/458603)                                            |
@@ -30,7 +37,9 @@ some vendors such as DigiKey for each part:
 | **220Ω Resistors**                     |   3   | [CF14JT220RCT-ND](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT220R/1741346)                |
 | **3.5mm TRRS Jacks**                   |   2   | [CP-43514-ND](https://www.digikey.com/en/products/detail/cui-devices/SJ-43514/368146)                                     |
 | **TRRS Cable (Male-Male)**             |   1   | [5600-FE-25TRRS-02-MM-ND](https://www.digikey.com/en/products/detail/my-cable-mart/FE-25TRRS-02-MM/24387360)              |
-| **Micro USB Cable**                    |   1   | [2987-DH-20M50057-ND](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50057/13177527)                         |
+| **Mini USB connector**                 |   1   | [WM17115-ND](https://www.digikey.com/en/products/detail/molex/0548190519/773802)                                          |
+| **Short Micro to Mini USB Cable**      |   1   | [839-10-00655-ND](https://www.digikey.com/en/products/detail/tensility-international-corp/10-00655/2766332)               |
+| **Mini USB Cable**                     |   1   | [2987-DH-20M50055-ND](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50055/13175849)                         |
 
 ## Case & Keycaps
 

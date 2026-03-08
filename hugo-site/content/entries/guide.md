@@ -17,4 +17,5 @@ To assemble the ErgoDox, you will need the following tools:
 - **Screwdriver** (for case assembly)
 
 ### Skills
-The build guide assumes a basic understanding of soldering. If you're new to soldering, we recommend watching a few tutorial videos on YouTube before starting.
+The build guide assumes a basic understanding of soldering. If you're new to soldering, we recommend watching a few 
+tutorial videos on YouTube before starting.

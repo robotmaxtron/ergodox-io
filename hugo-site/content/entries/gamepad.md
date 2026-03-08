@@ -5,7 +5,8 @@ title: As a Gamepad
 number: 6000
 ---
 ## Custom Layouts
-The ErgoDox is popular for gaming thanks to its split design. Many users use only the left half as a high-end gamepad, custom-tailored with specific layers for MMOs or FPS games.
+The ErgoDox is popular for gaming thanks to its split design. Many users use only the left half as a high-end gamepad, 
+custom-tailored with specific layers for MMOs or FPS games.
 
 ### Gallery
 ![gamepad0](../img/gamepad0-min.jpg)

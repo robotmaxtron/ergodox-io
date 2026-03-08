@@ -64,7 +64,7 @@ These taller components should be installed once the flatter electronics are in 
 
 ### Phase 4: USB and Internal Wiring (Right Hand)
 
-1.  **USB Connector**: Insert the micro USB connector into the right-hand PCB and solder securely. This will serve as 
+1.  **USB Connector**: Insert the mini USB connector into the right-hand PCB and solder securely. This will serve as 
 the external connection to your computer.
 ![usb](../img/usb-min.jpg)
 2.  **Internal Wiring**: If your case uses a pigtail, strip a micro USB cable and wire it to the PCB pads as follows:
