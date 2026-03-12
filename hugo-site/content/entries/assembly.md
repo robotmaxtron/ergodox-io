@@ -18,13 +18,13 @@ must be oriented correctly.
 
 1.  **Preparation**: Flip both PCBs **face down** (this is the side *without* the white silkscreen markings for ICs and
 resistors).
-2.  **Placement**: 
+2.  **Placement (Either Method)**: 
     -   **Surface Mount (SMD)**: The small line on the diode must face the **square copper pad**. 
     - ![diode](../img/diode-min.jpg)
     -   **Through-Hole (THT)**: Bend the legs and insert through the two holes next to the copper pads. The black line 
     on the diode should match the line on the silkscreen (facing the square pad). 
     - ![Through-hole diode](../img/th-diode-min.jpg)
-3.  **Soldering**: Solder all diodes on both PCBs and trim the legs if using THT.
+3.  **Soldering**: Solder all diodes on both PCBs and trim the legs if using through-hole.
 
 ---
 

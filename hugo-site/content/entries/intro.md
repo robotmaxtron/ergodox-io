@@ -27,6 +27,7 @@ The ErgoDox project is the result of many real, human contributors:
 - **Erez Zukerman, Dmitry Slepov, and Yaara Lancet**: Founders of the [ErgoDox EZ](https://ergodox-ez.com).
 - **Jack Humbert**: Creator of [QMK Firmware](https://github.com/jackhumbert/qmk_firmware), based on TMK.
 - **Max Whittingham ("robotmaxtron")**: Creator of this documentation hub.
+- ...and lots of others have contributed to the project in various ways.
 
 ### Contributing
 Contributions to the documentation and build guides are welcome! If you want to contribute, pull requests and bug 

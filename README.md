@@ -17,8 +17,8 @@ manually.
 -   **Updated Hardware Guidance**: Optimized for the **Adafruit ItsyBitsy 32u4** (replacing the legacy Teensy 2.0).
 -   **Streamlined Sourcing**: Integrated parts list with some vendor part numbers and product links for simplified 
 ordering.
--   **Simplified Content**: Logical Markdown structure for easier maintenance and navigation.
--  **Improved Accessibility**: Comprehensive accessibility features and improved keyboard navigation.
+-   **Simplified Content**: Easier structure for lighter maintenance and navigation.
+-  **Improved Accessibility**: Improved keyboard navigation and dark mode support!
 
 ---
 

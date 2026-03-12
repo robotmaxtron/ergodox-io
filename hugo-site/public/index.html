@@ -147,6 +147,7 @@ onto the keyboard.</p>
 <li><strong>Erez Zukerman, Dmitry Slepov, and Yaara Lancet</strong>: Founders of the <a href="https://ergodox-ez.com">ErgoDox EZ</a>.</li>
 <li><strong>Jack Humbert</strong>: Creator of <a href="https://github.com/jackhumbert/qmk_firmware">QMK Firmware</a>, based on TMK.</li>
 <li><strong>Max Whittingham (&ldquo;robotmaxtron&rdquo;)</strong>: Creator of this documentation hub.</li>
+<li>&hellip;and lots of others have contributed to the project in various ways.</li>
 </ul>
 <h3 id="contributing">Contributing</h3>
 <p>Contributions to the documentation and build guides are welcome! If you want to contribute, pull requests and bug
@@ -189,18 +190,22 @@ tutorial videos on YouTube before starting.</p>
             <p>A complete ErgoDox build requires sourcing the following components. Most parts are available from common electronics
 suppliers such as Mouser, Digikey, or through community group buys.</p>
 <h2 id="pcbs">PCBs</h2>
-<p>PCBs can be ordered with files from the <a href="https://github.com/robotmaxtron/ErgoDox">ErgoDox GitHub repo</a> using the
-provided Gerber files. Common PCB manufacturers include OSHPark, Seeed Studio, and JLCPCB.</p>
+<p>PCBs can be ordered with files from the <a href="https://github.com/robotmaxtron/ErgoDox">ErgoDox GitHub repo</a> using the provided Gerber files. Common PCB
+manufacturers include OSHPark, Seeed Studio, and JLCPCB.</p>
 <h3 id="vendors">Vendors</h3>
 <ul>
 <li><a href="https://jlcpcb.com/">JLCPCB</a></li>
-<li><a href="https://oshpark.com/">OSHPark</a></li>
+<li><a href="https://oshpark.com/">OSHPark</a> :
+<ul>
+<li><a href="https://oshpark.com/shared_projects/wWzS30He">Rev 2016 ErgoDox</a></li>
+</ul>
+</li>
 <li><a href="https://www.seeedstudio.com/">Seeed Studio</a></li>
 <li><a href="https://shop.profetkeyboards.com/product/ergodox-pcbs">Profet Keyboards</a></li>
 </ul>
 <h2 id="electronics">Electronics</h2>
-<p>The following electronic components are needed for a full build. To make sourcing easier, we&rsquo;ve provided links to
-some vendors such as DigiKey and Adafruit for each part:</p>
+<p>The following electronic components are <em>an example</em> of the parts needed for a full build. To make sourcing easier, we&rsquo;ve
+provided links to some vendors such as DigiKey and Adafruit for each part:</p>
 <table>
   <thead>
       <tr>
@@ -216,19 +221,19 @@ some vendors such as DigiKey and Adafruit for each part:</p>
           <td style="text-align: left"><a href="https://www.adafruit.com/product/3677">3677</a></td>
       </tr>
       <tr>
-          <td style="text-align: left"><strong>IC Socket</strong></td>
+          <td style="text-align: left"><strong>Short male headers</strong></td>
           <td style="text-align: center">1</td>
           <td style="text-align: left"><a href="https://www.adafruit.com/product/4173">4173</a></td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>MCP23018 I/O Expander (DIP-28)</strong></td>
           <td style="text-align: center">1</td>
-          <td style="text-align: left"><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP23018-E-SP/2126296">MCP23018-E/SP-ND</a></td>
+          <td style="text-align: left"><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP23018-E-SP/1999505">MCP23018-E/SP-ND</a></td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>Cherry MX Compatible Switches</strong></td>
           <td style="text-align: center">76-80</td>
-          <td style="text-align: left">Various</td>
+          <td style="text-align: left"><a href="https://www.adafruit.com/product/4954">Kailh Brown</a></td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>1N4148 Diodes (Through-hole)</strong></td>
@@ -291,7 +296,8 @@ available in our <a href="https://github.com/robotmaxtron/ErgoDox/tree/master/Er
 <li><strong>Custom Wood</strong>: Various artisans create high-end wooden cases.</li>
 </ul>
 <h3 id="tenting">Tenting</h3>
-<p>A <strong><a href="https://github.com/Ergodox-io/ergodox-tent">tenting stand</a></strong> is also available for 3D printing to improve ergonomics.</p>
+<p>A <strong><a href="https://github.com/Ergodox-io/ergodox-tent">tenting stand</a></strong> is also available for 3D printing to improve
+ergonomics when using the layered acrylic case.</p>
 <h3 id="keycaps">Keycaps</h3>
 <p>You&rsquo;ll need a set of Cherry MX-compatible keycaps. The exact number depends on your chosen layout:</p>
 <table>
@@ -337,7 +343,7 @@ must be oriented correctly.</p>
 <ol>
 <li><strong>Preparation</strong>: Flip both PCBs <strong>face down</strong> (this is the side <em>without</em> the white silkscreen markings for ICs and
 resistors).</li>
-<li><strong>Placement</strong>:
+<li><strong>Placement (Either Method)</strong>:
 <ul>
 <li><strong>Surface Mount (SMD)</strong>: The small line on the diode must face the <strong>square copper pad</strong>.</li>
 <li><img src="../img/diode-min.jpg" alt="diode"></li>
@@ -346,7 +352,7 @@ on the diode should match the line on the silkscreen (facing the square pad).</l
 <li><img src="../img/th-diode-min.jpg" alt="Through-hole diode"></li>
 </ul>
 </li>
-<li><strong>Soldering</strong>: Solder all diodes on both PCBs and trim the legs if using THT.</li>
+<li><strong>Soldering</strong>: Solder all diodes on both PCBs and trim the legs if using through-hole.</li>
 </ol>
 <hr>
 <h3 id="phase-2-main-ics-and-resistors">Phase 2: Main ICs and Resistors</h3>
@@ -469,17 +475,19 @@ This can cause a short and cause permanent damage to the I/O expander!</li>
             <h2>
             Firmware
             </h2>
-            <p>The ErgoDox supports several firmware options. Choose the one that best fits your needs.</p>
+            <p>The ErgoDox supports several firmware options. Choose the one that best fits your needs. The main controller has
+traditionally used an ATmega32u4 breakout board.</p>
 <h2 id="qmk-firmware">QMK Firmware</h2>
 <p>The most popular and recommended firmware. It offers powerful features like layers, macros, and deep customization.</p>
 <ul>
-<li><strong><a href="http://qmk.fm/keyboards/ergodox/">QMK Homepage</a></strong></li>
-<li><strong><a href="https://github.com/jackhumbert/qmk_firmware">GitHub Repository</a></strong></li>
+<li><strong><a href="https://qmk.fm">QMK Homepage</a></strong></li>
+<li><strong><a href="https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodox_ez">GitHub Repository</a></strong></li>
 <li><strong>Configuration Tool</strong>: Use the <a href="https://configure.zsa.io/ergodox-ez/layouts/default/latest/0">ErgoDox-EZ Configurator</a> to generate keymaps and hex files easily.</li>
 </ul>
 <h2 id="other-options">Other Options</h2>
 <ul>
-<li><strong>TMK Firmware</strong>: Lightweight, feature-rich firmware. <a href="https://github.com/tmk/tmk_keyboard">GitHub</a>.</li>
+<li><strong>TMK Firmware</strong>: Oleg Kostyuk (cub-uanic) <a href="https://github.com/cub-uanic/tmk_keyboard">ported the TMK firmware</a>
+(written by &ldquo;hasu&rdquo;) to the ErgoDox! A lightweight, feature-rich firmware.</li>
 <li><strong>Original Firmware</strong>: Ben Blazak&rsquo;s original code. <a href="https://github.com/benblazak/ergodox-firmware">GitHub</a>.</li>
 </ul>
 <h2 id="flashing-instructions">Flashing Instructions</h2>
@@ -499,11 +507,13 @@ This can cause a short and cause permanent damage to the I/O expander!</li>
             <p>The ErgoDox project has inspired several popular variants and derivatives. While they share the core columnar stagger
 design, they each offer unique improvements such as pre-assembled convenience, concave key wells, or enhanced
 connectivity.</p>
-<p>On the following sections, we explore the most notable ErgoDox variations:</p>
+<p>On the following sections, we&rsquo;ll explore some notable ErgoDox variations:</p>
 <ul>
-<li><strong>ErgoDox EZ</strong>: The most popular pre-assembled, commercial version.</li>
+<li><strong>ErgoDox EZ</strong>: A  popular pre-assembled, commercial version.</li>
 <li><strong>ErgoDox Infinity</strong>: A high-tech version with LCD screens and USB-C.</li>
 <li><strong>Dactyl</strong>: A 3D-curved, concave variant for maximum ergonomics.</li>
+<li><strong><a href="https://kinesis-ergo.com/keyboards/advantage360/">Kinesis Advantage 360</a></strong>: A commercially available variant with
+a 3D-curved layout that can be customized with <a href="https://v0-3-branch.zmk.dev/docs/hardware">ZMK</a>.</li>
 </ul>
 
         </section>

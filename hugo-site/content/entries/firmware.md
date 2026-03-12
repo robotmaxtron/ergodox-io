@@ -5,16 +5,18 @@ parent_id: guide
 title: Firmware
 number: 2300
 ---
-The ErgoDox supports several firmware options. Choose the one that best fits your needs.
+The ErgoDox supports several firmware options. Choose the one that best fits your needs. The main controller has 
+traditionally used an ATmega32u4 breakout board. 
 
 ## QMK Firmware
 The most popular and recommended firmware. It offers powerful features like layers, macros, and deep customization.
-- **[QMK Homepage](http://qmk.fm/keyboards/ergodox/)**
-- **[GitHub Repository](https://github.com/jackhumbert/qmk_firmware)**
+- **[QMK Homepage](https://qmk.fm)**
+- **[GitHub Repository](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodox_ez)**
 - **Configuration Tool**: Use the [ErgoDox-EZ Configurator](https://configure.zsa.io/ergodox-ez/layouts/default/latest/0) to generate keymaps and hex files easily.
 
 ## Other Options
-- **TMK Firmware**: Lightweight, feature-rich firmware. [GitHub](https://github.com/tmk/tmk_keyboard).
+- **TMK Firmware**: Oleg Kostyuk (cub-uanic) [ported the TMK firmware](https://github.com/cub-uanic/tmk_keyboard) 
+(written by "hasu") to the ErgoDox! A lightweight, feature-rich firmware.
 - **Original Firmware**: Ben Blazak's original code. [GitHub](https://github.com/benblazak/ergodox-firmware).
 
 ## Flashing Instructions

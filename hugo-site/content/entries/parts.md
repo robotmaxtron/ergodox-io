@@ -10,26 +10,27 @@ suppliers such as Mouser, Digikey, or through community group buys.
 
 ## PCBs
 
-PCBs can be ordered with files from the [ErgoDox GitHub repo](https://github.com/robotmaxtron/ErgoDox) using the 
-provided Gerber files. Common PCB manufacturers include OSHPark, Seeed Studio, and JLCPCB.
+PCBs can be ordered with files from the [ErgoDox GitHub repo](https://github.com/robotmaxtron/ErgoDox) using the provided Gerber files. Common PCB 
+manufacturers include OSHPark, Seeed Studio, and JLCPCB.
 
 ### Vendors
 - [JLCPCB](https://jlcpcb.com/)
-- [OSHPark](https://oshpark.com/)
+- [OSHPark](https://oshpark.com/) :
+  - [Rev 2016 ErgoDox](https://oshpark.com/shared_projects/wWzS30He)
 - [Seeed Studio](https://www.seeedstudio.com/)
 - [Profet Keyboards](https://shop.profetkeyboards.com/product/ergodox-pcbs)
 
 ## Electronics
 
-The following electronic components are needed for a full build. To make sourcing easier, we've provided links to 
-some vendors such as DigiKey and Adafruit for each part:
+The following electronic components are _an example_ of the parts needed for a full build. To make sourcing easier, we've 
+provided links to some vendors such as DigiKey and Adafruit for each part:
 
 | Component                              |  Qty  | Part Number                                                                                                               |
 |:---------------------------------------|:-----:|:--------------------------------------------------------------------------------------------------------------------------|
 | **Adafruit ItsyBitsy 32u4 - 5V 16MHz** |   1   | [3677](https://www.adafruit.com/product/3677)                                                                             |
-| **IC Socket**                          |   1   | [4173](https://www.adafruit.com/product/4173)                                                                             |
-| **MCP23018 I/O Expander (DIP-28)**     |   1   | [MCP23018-E/SP-ND](https://www.digikey.com/en/products/detail/microchip-technology/MCP23018-E-SP/2126296)                 |
-| **Cherry MX Compatible Switches**      | 76-80 | Various                                                                                                                   |                                                                                        |
+| **Short male headers**                 |   1   | [4173](https://www.adafruit.com/product/4173)                                                                             |
+| **MCP23018 I/O Expander (DIP-28)**     |   1   | [MCP23018-E/SP-ND](https://www.digikey.com/en/products/detail/microchip-technology/MCP23018-E-SP/1999505)                 |
+| **Cherry MX Compatible Switches**      | 76-80 | [Kailh Brown](https://www.adafruit.com/product/4954)                                                                      |                                                                                        |
 | **1N4148 Diodes (Through-hole)**       | 76-80 | [1N4148FS-ND](https://www.digikey.com/en/products/detail/onsemi/1N4148/458603)                                            |
 | **2.2kΩ Resistors**                    |   2   | [CF14JT2K20TR-ND](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT2K20/1741321)                |
 | **0.1µF Ceramic Capacitor**            |   1   | [BC2665CT-ND](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754) |
@@ -50,7 +51,8 @@ available in our [GitHub Repo](https://github.com/robotmaxtron/ErgoDox/tree/mast
 - **Custom Wood**: Various artisans create high-end wooden cases.
 
 ### Tenting
-A **[tenting stand](https://github.com/Ergodox-io/ergodox-tent)** is also available for 3D printing to improve ergonomics.
+A **[tenting stand](https://github.com/Ergodox-io/ergodox-tent)** is also available for 3D printing to improve 
+ergonomics when using the layered acrylic case.
 
 ### Keycaps
 You'll need a set of Cherry MX-compatible keycaps. The exact number depends on your chosen layout:
