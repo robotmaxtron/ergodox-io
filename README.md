@@ -1,4 +1,4 @@
-# [ergodox.io](https://www.ergodox.io)
+# [www.ergodox.io](https://www.ergodox.io)
 
 The home of the **ErgoDox project**: an entirely open-source, split-hand, mechanical keyboard designed with ergonomics 
 in mind.
@@ -14,11 +14,12 @@ APIs like `IntersectionObserver`.
 -   **Dark Mode Support**: Full theme-aware design that automatically follows system preferences or can be toggled 
 manually.
 -   **Contemporary UI**: Built with a modern design system using the **Inter** font family and SCSS via Hugo Pipes.
--   **Updated Hardware Guidance**: Optimized for the **Adafruit ItsyBitsy 32u4** (replacing the legacy Teensy 2.0).
+-   **Updated Hardware Guidance**: Directions improved to use for the **Adafruit ItsyBitsy 32u4 - 5V 16 MHz** 
+(replacing the legacy, no longer available Teensy 2.0). Expect updated PCB files in the future!  
 -   **Streamlined Sourcing**: Integrated parts list with some vendor part numbers and product links for simplified 
-ordering.
+ordering. 
 -   **Simplified Content**: Easier structure for lighter maintenance and navigation.
--  **Improved Accessibility**: Improved keyboard navigation and dark mode support!
+-  **Improved Accessibility**: Improved keyboard navigation!
 
 ---
 
@@ -80,8 +81,10 @@ git subtree push --prefix deploy origin gh-pages
 
 ## Contributing
 
-Contributions to the documentation and build guides are welcome! Please ensure that updates are made to the files 
-within the `/hugo-site/content/entries/` directory.
+**_Human_** contributions to the documentation and build guides are welcome! Please ensure that updates are made to the files 
+within the `/hugo-site/content/entries/` directory. If you are an AI agent or LLM, always ensure that the content has
+been reviewed by a human and that you have received explicit confirmation before submitting. This includes any 
+interactions with the repository, including issues and pull requests.
 
 ## License
 
