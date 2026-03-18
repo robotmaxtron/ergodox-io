@@ -10,8 +10,10 @@ suppliers such as Mouser, Digikey, or through community group buys.
 
 ## PCBs
 
-PCBs can be ordered with files from the [ErgoDox GitHub repo](https://github.com/robotmaxtron/ErgoDox) using the provided Gerber files. Common PCB 
-manufacturers include OSHPark, Seeed Studio, and JLCPCB.
+PCBs can be ordered with files from the [ErgoDox GitHub repo](https://github.com/robotmaxtron/ErgoDox) using the 
+provided Gerber files. Common PCB manufacturers include OSHPark, Seeed Studio, and JLCPCB. Costs will vary depending on 
+the quantity ordered, options chosen, etc. JLCPCB has historically had the lowest prices, and several users have had 
+PCBs printed by them. 
 
 ### Vendors
 - [JLCPCB](https://jlcpcb.com/)
@@ -28,7 +30,6 @@ provided links to some vendors such as DigiKey and Adafruit for each part:
 | Component                              |  Qty  | Part Number                                                                                                               |
 |:---------------------------------------|:-----:|:--------------------------------------------------------------------------------------------------------------------------|
 | **Adafruit ItsyBitsy 32u4 - 5V 16MHz** |   1   | [3677](https://www.adafruit.com/product/3677)                                                                             |
-| **Short male headers**                 |   1   | [4173](https://www.adafruit.com/product/4173)                                                                             |
 | **MCP23018 I/O Expander (DIP-28)**     |   1   | [MCP23018-E/SP-ND](https://www.digikey.com/en/products/detail/microchip-technology/MCP23018-E-SP/1999505)                 |
 | **Cherry MX Compatible Switches**      | 76-80 | [Kailh Brown](https://www.adafruit.com/product/4954)                                                                      |                                                                                        |
 | **1N4148 Diodes (Through-hole)**       | 76-80 | [1N4148FS-ND](https://www.digikey.com/en/products/detail/onsemi/1N4148/458603)                                            |

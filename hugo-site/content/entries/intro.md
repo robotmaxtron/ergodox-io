@@ -20,7 +20,7 @@ onto the keyboard.
 
 ## Who built this?
 The ErgoDox project is the result of many real, human contributors:
-- **Dominic Beauchamp ("Dox")**: Original developer, inspired by the [Key64 Keyboard](https://www.key64.org).
+- **Dominic Beauchamp ("Dox")**: Original developer, inspired by the Key64 Keyboard.
 - **Fredrik Atmer ("bpiphany")**: Designer of the printed circuit board (PCB).
 - **Litster**: Designer of the popular layered acrylic case.
 - **Ben Blazak**: Author of the original firmware.
