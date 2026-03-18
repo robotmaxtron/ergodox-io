@@ -15,8 +15,8 @@ manufacturers include OSHPark, Seeed Studio, and JLCPCB.
 
 ### Vendors
 - [JLCPCB](https://jlcpcb.com/)
-- [OSHPark](https://oshpark.com/) :
-  - [Rev 2016 ErgoDox](https://oshpark.com/shared_projects/wWzS30He)
+- [OSHPark](https://oshpark.com/)
+  - Latest Revision: https://oshpark.com/shared_projects/darvLWxS
 - [Seeed Studio](https://www.seeedstudio.com/)
 - [Profet Keyboards](https://shop.profetkeyboards.com/product/ergodox-pcbs)
 
