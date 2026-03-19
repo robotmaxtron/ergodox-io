@@ -15,6 +15,7 @@ The most popular and recommended firmware. It offers powerful features like laye
 - **Configuration Tool**: Use the [ErgoDox-EZ Configurator](https://configure.zsa.io/ergodox-ez/layouts/default/latest/0) to generate keymaps and hex files easily.
 
 ## Other Options
+- **Experimental v3 ErgoDox Firmware**: [Modernized fork](https://github.com/robotmaxtron/ergodox-firmware) of Ben's original firmware with some additional features.
 - **TMK Firmware**: Oleg Kostyuk (cub-uanic) [ported the TMK firmware](https://github.com/cub-uanic/tmk_keyboard) 
 (written by "hasu") to the ErgoDox! A lightweight, feature-rich firmware.
 - **Original Firmware**: Ben Blazak's original code. [GitHub](https://github.com/benblazak/ergodox-firmware).

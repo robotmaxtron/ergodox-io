@@ -17,5 +17,4 @@ variation of the ErgoDox design.
 
 ### Resources
 - **[Build Guide](https://github.com/adereth/dactyl-keyboard/blob/master/guide/README.org#wiring)**
-- **[Shapeways Store](https://www.shapeways.com/shops/bespokeys)**
 - **[Clojure Talk on 3D Printing Keyboards](http://adereth.github.io/blog/2015/11/19/clojure-slash-conj-talk-on-3d-printing-keyboards/)**

@@ -16,8 +16,9 @@ the quantity ordered, options chosen, etc. JLCPCB has historically had the lowes
 PCBs printed by them. 
 
 ### Vendors
-- [JLCPCB](https://jlcpcb.com/)
-- [OSHPark](https://oshpark.com/)
+- [JLCPCB](https://jlcpcb.com/) – Upload Gerber files to order PCBs
+  - [JLC3DP](https://jlc3dp.com/) - 3D Printed Case
+- [OSHPark](https://oshpark.com/) - PCBs
   - Latest Revision: https://oshpark.com/shared_projects/darvLWxS
 - [Seeed Studio](https://www.seeedstudio.com/)
 - [Profet Keyboards](https://shop.profetkeyboards.com/product/ergodox-pcbs)
